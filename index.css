@@ -10,12 +10,24 @@ main {
 
 header {
     text-align: center;
-}
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  }
 
 nav{
-    gap: 30px;
+    gap: 50px;
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: center;
+}
+a{
+    color: #000000
+}
+
+a:hover {
+    color: purple;
+    transform: rotate(10deg)
 }
